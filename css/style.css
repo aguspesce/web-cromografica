@@ -73,12 +73,6 @@ ul li {
   margin-right: 1.5rem;
 }
 
-@media (max-width: 600px) {
-  i {
-    font-size: 1.5rem;
-  }
-}
-
 main img {
   width: 100%;
   max-width: 50rem;
@@ -167,4 +161,11 @@ footer {
   padding-bottom: 1rem;
   padding-top: 1rem;
   margin-top: 6rem;
+}
+
+/* ------------------------------------------------------- */
+
+/* Remove left margin from list items that uses Bootstrap cols */
+ul.fa-ul > li.col-lg-6 {
+  padding-left: 0;
 }
