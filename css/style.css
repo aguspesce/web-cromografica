@@ -60,10 +60,12 @@ main img {
   margin-bottom: 2rem;
 }
 
-i {
-  padding-right: 0.5rem;
-  font-size: 2em;
+i.fa-li {
   color: #db0076;
+}
+
+ul li {
+  margin-bottom: 0.7rem;
 }
 
 .margin {
@@ -157,10 +159,6 @@ header p {
 }
 
 /* ------------------------------------------------------- */
-
-.texto-consejos {
-  padding-left: 2rem;
-}
 
 footer {
   background-color: #231f20;
