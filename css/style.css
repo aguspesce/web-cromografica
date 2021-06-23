@@ -60,21 +60,17 @@ main img {
   margin-bottom: 2rem;
 }
 
-i {
-  padding-right: 0.5rem;
-  font-size: 2em;
+i.fa-li {
   color: #db0076;
+}
+
+ul li {
+  margin-bottom: 0.7rem;
 }
 
 .margin {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-}
-
-@media (max-width: 600px) {
-  i {
-    font-size: 1.5rem;
-  }
 }
 
 main img {
@@ -158,10 +154,6 @@ header p {
 
 /* ------------------------------------------------------- */
 
-.texto-consejos {
-  padding-left: 2rem;
-}
-
 footer {
   background-color: #231f20;
   text-align: center;
@@ -169,4 +161,11 @@ footer {
   padding-bottom: 1rem;
   padding-top: 1rem;
   margin-top: 6rem;
+}
+
+/* ------------------------------------------------------- */
+
+/* Remove left margin from list items that uses Bootstrap cols */
+ul.fa-ul > li.col-lg-6 {
+  padding-left: 0;
 }
