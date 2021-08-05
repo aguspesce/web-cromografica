@@ -15,12 +15,6 @@ html {
   }
 }
 
-@media (max-width: 500px) {
-  html {
-    font-size: 0.7rem;
-  }
-}
-
 /* ----------------------------------*/
 h2 {
   margin-top: 3rem;
